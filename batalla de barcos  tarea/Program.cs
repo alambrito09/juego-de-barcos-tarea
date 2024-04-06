@@ -69,6 +69,9 @@
         //si todos los puntos y disparos se terminan terminar el juego 
     } while (aciertos > 0 && puntos > 0);
     Console.WriteLine();
+     Console.WriteLine("presione enter para regresar al menu principal");
+Console.ReadKey();
+     
 }
 static void MostrarMapa(int[,] mapa)
 {
