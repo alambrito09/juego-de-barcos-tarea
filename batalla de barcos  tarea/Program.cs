@@ -71,6 +71,7 @@
     Console.WriteLine();
      Console.WriteLine("presione enter para regresar al menu principal");
 Console.ReadKey();
+     Console.WriteLine();
      
 }
 static void MostrarMapa(int[,] mapa)
