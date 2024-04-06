@@ -185,7 +185,7 @@ do
         Console.WriteLine();
         Console.WriteLine(" opcion1 (1) jugar ");
         Console.WriteLine();
-        Console.WriteLine(" opcion2 (0) salir");
+        Console.WriteLine(" opcion2 (3) salir");
         opcion = Convert.ToInt32(Console.ReadLine());
 
         switch (opcion)
